@@ -1,3 +1,15 @@
+# Shortcuts
+
+## to start the app locally
+
+- install dependencies if not installed yet
+  `% yarn`
+
+- start the app in development mode (run locally)
+  `% yarn dev`
+
+* in Chrome browser go to address `http://localhost:5174/` (or whichever port is specified for the app)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -22,7 +34,7 @@ export default {
     project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
